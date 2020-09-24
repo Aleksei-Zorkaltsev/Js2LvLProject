@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="logo">Интернет-магазин</div>
+    <div class="cart">
+        <form action="#" class="search-form">
+            <input type="text" class="search-field">
+            <button class="btn-search" type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+        <button class="btn-cart" type="button">Корзина</button>
+        <div class="cart-block invisible"></div>
+    </div>
+</header>
+<main>
+    <div class="products"></div>
+    <form name="feedbackForm" class="formForHW">
+        <h2>Обратаная связь</h2>
+        <p>Ведите имя</p>
+        <input type="text" class="inputNameForm" placeholder="Имя">
+        <p>Укажите номер телефона</p>
+        <input type="text" class="inputPhoneForm" placeholder="+7(000)000-0000">
+        <p>Укажите адрес электронной почты</p>
+        <input type="text" class="inputMailForm" placeholder="mymail@mail.ru">
+        <textarea class ="textareaForm" placeholder="Оставьте ваше сообщение..."></textarea>
+        <button type="button" class="form-btn">Отправить</button>
+        <p class="errorMassageForms"></p>
+    </form>
+</main>
+<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script src="js/feedbackForm.js"></script>
+<script src="js/q1-2.js"></script>
+</body>
+</html>
